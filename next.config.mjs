@@ -1,17 +1,14 @@
-/** @type {import('next').NextConfig} */
+
+  /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
     domains: [
       'cdn.greatdeals.com.sg',
       'th.bing.com',
       'plus.unsplash.com',
-      'img.freepik.com'
+      'img.freepik.com',
     ],
   },
-};
-
-export default nextConfig;
-module.exports = {
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -19,3 +16,6 @@ module.exports = {
     ignoreBuildErrors: true,
   },
 };
+
+export default nextConfig;
+
