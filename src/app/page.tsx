@@ -5,7 +5,6 @@ import Carsusel from "./components/carsusel";
 import Card from "./components/card";
 import Offers from "./components/offers";
 import ProductList from "./components/productList";
-import Testimonals from "./components/testimonals";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import Reservation from "./components/reservation";
