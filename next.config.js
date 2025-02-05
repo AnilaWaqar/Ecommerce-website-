@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   images: {
     domains: [
       'cdn.greatdeals.com.sg',
@@ -15,3 +15,5 @@ module.exports = {
     ignoreBuildErrors: true,
   },
 };
+
+export default nextConfig;
